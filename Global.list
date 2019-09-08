@@ -105,11 +105,6 @@ DOMAIN-SUFFIX,onedrive.com,PROXY
 DOMAIN-SUFFIX,storage.live.com,PROXY
 DOMAIN-SUFFIX,storage.msn.com,PROXY
 DOMAIN,oneclient.sfx.ms,PROXY
-# > Spark
-DOMAIN-SUFFIX,api.amplitude.com
-DOMAIN-SUFFIX,app.smartmailcloud.com
-DOMAIN-SUFFIX,gate.hockeyapp.net
-DOMAIN-SUFFIX,smartmailcloud.com
 # > Google
 DOMAIN-SUFFIX,appspot.com,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY
