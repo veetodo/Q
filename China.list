@@ -1,6 +1,5 @@
 # China Area Network
 # > Client
-PROCESS-NAME,Paws for Trello,DIRECT
 PROCESS-NAME,ss-local,DIRECT
 PROCESS-NAME,Thunder,DIRECT
 PROCESS-NAME,TeamViewer,DIRECT
