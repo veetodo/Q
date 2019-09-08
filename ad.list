@@ -355,8 +355,6 @@ DOMAIN-SUFFIX,store.iqiyi.com,REJECT
 DOMAIN-SUFFIX,t7z.cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,tracker.sns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,yuedu.iqiyi.com,REJECT
-URL-REGEX,https?://.+/videos/other/.+,REJECT
-URL-REGEX,https?://paopao\w?.qiyipic.com,REJECT
 IP-CIDR,101.227.97.240/32,no-resolve,REJECT
 IP-CIDR,101.227.200.11/32,no-resolve,REJECT
 IP-CIDR,101.227.200.28/32,no-resolve,REJECT
