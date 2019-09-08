@@ -745,7 +745,6 @@ IP-CIDR,223.87.182.101/32,no-resolve,REJECT
 IP-CIDR,223.87.182.102/32,no-resolve,REJECT
 IP-CIDR,223.87.182.11/32,no-resolve,REJECT
 IP-CIDR,223.87.182.52/32,no-resolve,REJECT
-URL-REGEX,https?://.+.atm.youku.com,REJECT
 # > Youtube
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
 DOMAIN-SUFFIX,azabu-u.ac.jp,REJECT
