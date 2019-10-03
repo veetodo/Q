@@ -1,4 +1,14 @@
 # (DNS Cache Pollution Protection)
+# > reeder
+DOMAIN-SUFFIX,z-z-z.vip,Proxy
+DOMAIN-SUFFIX,rsshub.app,Proxy
+DOMAIN-SUFFIX,feedx.net,Proxy
+DOMAIN-SUFFIX,blogspot.com,Proxy
+DOMAIN-SUFFIX,kenengba.com,Proxy
+DOMAIN-SUFFIX,chinagfw.org,Proxy
+DOMAIN-SUFFIX,xclient.info,Proxy
+DOMAIN-SUFFIX,dapenti.com,Proxy
+
 # > UA
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Proxy
 USER-AGENT,AwemeI18n*,Proxy
