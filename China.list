@@ -40,6 +40,13 @@ DOMAIN-SUFFIX,youku.com,DIRECT
 DOMAIN-SUFFIX,xiami.com,DIRECT
 DOMAIN-SUFFIX,xiami.net,DIRECT
 # > Apple
+DOMAIN-SUFFIX,apple.co,DIRECT
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,itunes.com,DIRECT
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,me.com,DIRECT
 DOMAIN-SUFFIX,adcdownload.apple.com,DIRECT
 DOMAIN-SUFFIX,appldnld.apple.com,DIRECT
 DOMAIN-SUFFIX,lcdn-locator.apple.com,DIRECT
@@ -53,13 +60,6 @@ DOMAIN-SUFFIX,ess.apple.com,DIRECT
 DOMAIN-SUFFIX,push.apple.com,DIRECT
 DOMAIN-SUFFIX,lookup-api.apple.com,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
-DOMAIN-SUFFIX,apple.co,DIRECT
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,itunes.com,DIRECT
-DOMAIN-SUFFIX,itunes.apple.com,DIRECT
-DOMAIN-SUFFIX,me.com,DIRECT
 # > Baidu
 DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,baidubcr.com,DIRECT
