@@ -44,7 +44,7 @@ DOMAIN-SUFFIX,adcdownload.apple.com,DIRECT
 DOMAIN-SUFFIX,appldnld.apple.com,DIRECT
 DOMAIN-SUFFIX,lcdn-locator.apple.com,DIRECT
 DOMAIN-SUFFIX,lcdn-registration.apple.com,DIRECT
-DOMAIN-SUFFIX,ls.apple.com,DIRECT // Maps
+DOMAIN-SUFFIX,ls.apple.com,DIRECT
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
 DOMAIN-SUFFIX,phobos.apple.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
