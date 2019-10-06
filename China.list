@@ -42,16 +42,16 @@ DOMAIN-SUFFIX,xiami.net,DIRECT
 # > Apple
 DOMAIN-SUFFIX,adcdownload.apple.com,DIRECT
 DOMAIN-SUFFIX,appldnld.apple.com,DIRECT
-DOMAIN-SUFFIX,lcdn-locator.apple.com,DIRECT // Maps
-DOMAIN-SUFFIX,lcdn-registration.apple.com,DIRECT // Maps
+DOMAIN-SUFFIX,lcdn-locator.apple.com,DIRECT
+DOMAIN-SUFFIX,lcdn-registration.apple.com,DIRECT
 DOMAIN-SUFFIX,ls.apple.com,DIRECT // Maps
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN-SUFFIX,phobos.apple.com,DIRECT // iTunes Store
+DOMAIN-SUFFIX,phobos.apple.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
 DOMAIN-SUFFIX,cdn-apple.com,DIRECT
 DOMAIN-SUFFIX,ess.apple.com,DIRECT
 DOMAIN-SUFFIX,push.apple.com,DIRECT
-DOMAIN-SUFFIX,lookup-api.apple.com,DIRECT // Dictionary
+DOMAIN-SUFFIX,lookup-api.apple.com,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,apple.co,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
