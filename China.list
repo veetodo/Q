@@ -332,6 +332,9 @@ DOMAIN-SUFFIX,zhihu.com,DIRECT
 DOMAIN-SUFFIX,zhimg.com,DIRECT
 // Accelerate direct sites
 DOMAIN-KEYWORD,torrent,DIRECT
+// 自定义
+DOMAIN-SUFFIX,quickconnect.cn,DIRECT
+
 // LAN,debugging rules should place above this line
 DOMAIN-SUFFIX,local,DIRECT
 DOMAIN-SUFFIX,cn,DIRECT
