@@ -1,6 +1,5 @@
 # (DNS Cache Pollution Protection)
 # > reeder
-DOMAIN-SUFFIX,z-z-z.vip,Proxy
 DOMAIN-SUFFIX,rsshub.app,Proxy
 DOMAIN-SUFFIX,feedx.net,Proxy
 DOMAIN-SUFFIX,blogspot.com,Proxy
@@ -10,12 +9,6 @@ DOMAIN-SUFFIX,xclient.info,Proxy
 DOMAIN-SUFFIX,dapenti.com,Proxy
 DOMAIN-SUFFIX,sex8.cc,Proxy
 DOMAIN-SUFFIX,jav777.cc,Proxy
-DOMAIN-SUFFIX,beautyav.net,Proxy
-DOMAIN-SUFFIX,avhbo.com,Proxy
-DOMAIN-SUFFIX,sehuatang.net,Proxy
-DOMAIN-SUFFIX,jav77.club,Proxy
-DOMAIN-SUFFIX,jizzbb.com,Proxy
-DOMAIN-SUFFIX,aishxs.info,Proxy
 DOMAIN-SUFFIX,netflav.com,Proxy
 # > UA
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Proxy
