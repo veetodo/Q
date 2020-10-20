@@ -104,18 +104,6 @@ DOMAIN-KEYWORD,twitter,Proxy
 DOMAIN-KEYWORD,whatsapp,Proxy
 DOMAIN-KEYWORD,wikimapia,Proxy
 DOMAIN-KEYWORD,youtube,Proxy
-# > Microsoft
-DOMAIN-SUFFIX,xboxlive.com,PROXY
-# >> Microsoft OneDrive
-DOMAIN-SUFFIX,onedrive.live.com,PROXY
-DOMAIN-SUFFIX,1drv.com,PROXY
-DOMAIN-SUFFIX,1drv.ms,PROXY
-DOMAIN-SUFFIX,blob.core.windows.net,PROXY
-DOMAIN-SUFFIX,livefilestore.com,PROXY
-DOMAIN-SUFFIX,onedrive.com,PROXY
-DOMAIN-SUFFIX,storage.live.com,PROXY
-DOMAIN-SUFFIX,storage.msn.com,PROXY
-DOMAIN,oneclient.sfx.ms,PROXY
 # > Google
 DOMAIN-SUFFIX,appspot.com,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY
@@ -397,8 +385,6 @@ DOMAIN-SUFFIX,lastpass.com,Proxy
 DOMAIN-SUFFIX,line.me,Proxy
 DOMAIN-SUFFIX,linkedin.com,Proxy
 DOMAIN-SUFFIX,linode.com,Proxy
-DOMAIN-SUFFIX,live.com,Proxy
-DOMAIN-SUFFIX,live.net,Proxy
 DOMAIN-SUFFIX,mac.com,Proxy
 DOMAIN-SUFFIX,marriott.com,Proxy
 DOMAIN-SUFFIX,medium.com,Proxy
@@ -416,18 +402,11 @@ DOMAIN-SUFFIX,nyt.com,Proxy
 DOMAIN-SUFFIX,nytimes.com,Proxy
 DOMAIN-SUFFIX,nytimg.com,Proxy
 DOMAIN-SUFFIX,nytstyle.com,Proxy
-DOMAIN-SUFFIX,office.com,Proxy
-DOMAIN-SUFFIX,office.net,Proxy
-DOMAIN-SUFFIX,office365.com,Proxy
 DOMAIN-SUFFIX,omnigroup.com,Proxy
-DOMAIN-SUFFIX,onedrive.com,Proxy
-DOMAIN-SUFFIX,onedrive.live.com,Proxy
-DOMAIN-SUFFIX,onenote.com,Proxy
 DOMAIN-SUFFIX,openvpn.net,Proxy
 DOMAIN-SUFFIX,openwrt.org,Proxy
 DOMAIN-SUFFIX,orkut.com,Proxy
 DOMAIN-SUFFIX,osxdaily.com,Proxy
-DOMAIN-SUFFIX,outlook.com,Proxy
 DOMAIN-SUFFIX,overcast.fm,Proxy
 DOMAIN-SUFFIX,ow.ly,Proxy
 DOMAIN-SUFFIX,page2rss.com,Proxy
