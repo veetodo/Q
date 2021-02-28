@@ -1,5 +1,6 @@
 # (DNS Cache Pollution Protection)
 # > reeder
+DOMAIN-SUFFIX,azureedge.net,Proxy
 DOMAIN-SUFFIX,rsshub.app,Proxy
 DOMAIN-SUFFIX,feedx.net,Proxy
 DOMAIN-SUFFIX,blogspot.com,Proxy
