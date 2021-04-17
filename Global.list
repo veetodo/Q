@@ -1,5 +1,6 @@
 # (DNS Cache Pollution Protection)
 DOMAIN-SUFFIX,ssp-cloud.net,Proxy
+DOMAIN-SUFFIX,limbopro.xyz,Proxy
 # > reeder
 DOMAIN-SUFFIX,azureedge.net,Proxy
 DOMAIN-SUFFIX,rsshub.app,Proxy
