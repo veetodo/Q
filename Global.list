@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,jable.tv,Proxy
 DOMAIN-SUFFIX,avhbo.com,Proxy
 DOMAIN-SUFFIX,e-neta.xyz,Proxy
 DOMAIN-SUFFIX,easyintnet.com,Proxy
+DOMAIN-SUFFIX, sehuatang.net,Proxy
 # > UA
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Proxy
 USER-AGENT,AwemeI18n*,Proxy
