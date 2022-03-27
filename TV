@@ -1,0 +1,33 @@
+#EXTM3U
+#EXTINF:-1 ,CCTV1HD
+http://iptv.tvfix.org/hls/cctv1hd.m3u8
+#EXTINF:-1 ,CCTV1HD
+http://111.40.196.27/PLTV/88888888/224/3221225548/index.m3u8
+#EXTINF:-1 ,CCTV5HD
+http://iptv.tvfix.org/hls/cctv5hd.m3u8
+#EXTINF:-1 ,CCTV5HD
+http://111.63.117.13:6060/030000001000/CCTV-5/CCTV-5.m3u8
+#EXTINF:-1 ,CCTV5+HD
+http://iptv.tvfix.org/hls/cctv5phd.m3u8
+#EXTINF:-1 ,CCTV5+HD
+http://39.134.193.97:6610/030000001000/G_CCTV-5PLUS/G_CCTV-5PLUS.m3u8
+#EXTINF:-1 ,CCTV13HD
+http://iptv.tvfix.org/hls/cctv13hd.m3u8
+#EXTINF:-1 ,CCTV-16(4K)
+http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
+#EXTINF:-1 ,凤凰中文
+https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
+#EXTINF:-1 ,凤凰中文
+http://iptv.tvfix.org/hls/fhzw.m3u8
+#EXTINF:-1 ,凤凰资讯
+http://iptv.tvfix.org/hls/fhzx.m3u8
+#EXTINF:-1 ,凤凰资讯
+https://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+#EXTINF:-1 ,湖南卫视HD
+http://iptv.tvfix.org/hls/hunanhd.m3u8
+#EXTINF:-1 ,浙江卫视HD
+http://iptv.tvfix.org/hls/zjhd.m3u8
+#EXTINF:-1 ,江苏卫视HD
+http://iptv.tvfix.org/hls/jshd.m3u8
+#EXTINF:-1 ,东方卫视HD
+http://iptv.tvfix.org/hls/dfhd.m3u8
