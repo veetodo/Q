@@ -11,7 +11,6 @@ DOMAIN-SUFFIX,feedx.net,Proxy
 DOMAIN-SUFFIX,blogspot.com,Proxy
 DOMAIN-SUFFIX,kenengba.com,Proxy
 DOMAIN-SUFFIX,chinagfw.org,Proxy
-DOMAIN-SUFFIX,xclient.info,Proxy
 DOMAIN-SUFFIX,dapenti.com,Proxy
 DOMAIN-SUFFIX,sex8.cc,Proxy
 DOMAIN-SUFFIX,jav777.cc,Proxy
@@ -22,7 +21,6 @@ DOMAIN-SUFFIX,e-nets.xyz,Proxy
 DOMAIN-SUFFIX,easyintnet.com,Proxy
 DOMAIN-SUFFIX,sehuatang.net,Proxy
 DOMAIN-SUFFIX,hayav.com,Proxy
-
 # > UA
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Proxy
 USER-AGENT,AwemeI18n*,Proxy
@@ -117,16 +115,6 @@ DOMAIN-KEYWORD,twitter,Proxy
 DOMAIN-KEYWORD,whatsapp,Proxy
 DOMAIN-KEYWORD,wikimapia,Proxy
 DOMAIN-KEYWORD,youtube,Proxy
-# > Google
-DOMAIN-SUFFIX,appspot.com,PROXY
-DOMAIN-SUFFIX,blogger.com,PROXY
-DOMAIN-SUFFIX,getoutline.org,PROXY
-DOMAIN-SUFFIX,gvt0.com,PROXY
-DOMAIN-SUFFIX,gvt1.com,PROXY
-DOMAIN-SUFFIX,gvt3.com,PROXY
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
-DOMAIN-KEYWORD,google,PROXY
-DOMAIN-KEYWORD,blogspot,PROXY
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
 DOMAIN-SUFFIX,fb.com,PROXY
@@ -512,7 +500,6 @@ DOMAIN-SUFFIX,ying.com,Proxy
 DOMAIN-SUFFIX,youtu.be,Proxy
 DOMAIN-SUFFIX,youtube.com,Proxy
 DOMAIN-SUFFIX,ytimg.com,Proxy
-
 # > Amazon
 IP-CIDR,13.32.0.0/16,Proxy,no-resolve
 IP-CIDR,13.33.0.0/16,Proxy,no-resolve
