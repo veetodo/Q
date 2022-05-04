@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 ,中国之声
+http://ngcdn001.cnr.cn/live/zgzs/index.m3u8
+#EXTINF:-1 ,经济之声
+http://ngcdn002.cnr.cn/live/jjzs/index.m3u8
+#EXTINF:-1 ,音乐之声
+http://ngcdn003.cnr.cn/live/yyzs/index.m3u8
+#EXTINF:-1 ,上海动感101 FM101.7
+https://lhttp.qingting.fm/live/274/64k.mp3
+#EXTINF:-1 ,LoveRadio魅力103 FM103.7
+https://lhttp.qingting.fm/live/273/64k.mp3
+#EXTINF:-1 ,江苏交通广播
+http://lzlive.vojs.cn/4TaHTeL/92/live.m3u8
