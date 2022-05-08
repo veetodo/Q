@@ -22,6 +22,8 @@ DOMAIN-SUFFIX,easyintnet.com,Proxy
 DOMAIN-SUFFIX,sehuatang.net,Proxy
 DOMAIN-SUFFIX,hayav.com,Proxy
 DOMAIN-SUFFIX,btnull.org,Proxy
+DOMAIN-SUFFIX,rss.app,Proxy
+DOMAIN-SUFFIX,javday.tv,Proxy
 
 # > UA
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Proxy
