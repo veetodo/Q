@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,rss.app,Proxy
 DOMAIN-SUFFIX,javday.tv,Proxy
 DOMAIN-SUFFIX,appinn.com,Proxy
 DOMAIN-SUFFIX,netflav.com,Proxy
+DOMAIN-SUFFIX,easyemby.com,Proxy
 
 # > UA
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Proxy
