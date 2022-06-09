@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,netflav.com,Proxy
 DOMAIN-SUFFIX,easyemby.com,Proxy
 DOMAIN-SUFFIX,charontv.com,Proxy
 DOMAIN-SUFFIX,notion.so,Proxy
+DOMAIN-SUFFIX,7mmtv.tv,Proxy
 
 # > UA
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Proxy
