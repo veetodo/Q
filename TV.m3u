@@ -53,6 +53,10 @@ http://hw-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225745/index.m3u8
 
 #EXTINF:-1 tvg-id="16" tvg-name="动感101" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/DG101.jpg" group-title="电台",动感101
-https://lhttp.qingting.fm/live/274/64k.mp3
+http://lhttp.qingting.fm/live/274/64k.mp3?app_id=web
 #EXTINF:-1 tvg-id="17" tvg-name="江苏交通广播" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/JSJTGB.jpeg" group-title="电台",江苏交通广播
 http://lzlive.vojs.cn/4TaHTeL/92/live.m3u8
+#EXTINF:-1 tvg-id="18" tvg-name="中国之声" tvg-logo="https://cnvod.cnr.cn/audio2017/ondemand/media/1100/20210425/1619317448858.jpg" group-title="电台",中国之声
+https://ngcdn001.cnr.cn/live/zgzs/index.m3u8
+#EXTINF:-1 tvg-id="19" tvg-name="经济之声" tvg-logo="https://cnvod.cnr.cn/audio2017/ondemand/img/1100/20191227/1577439539975.png" group-title="电台",经济之声
+https://ngcdn002.cnr.cn/live/jjzs/index.m3u8
