@@ -16,13 +16,10 @@ http://live.cooltv.top/tv/aishang.php?id=cctv5p
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/CCTV-5%2B.png" group-title="CCTV",CCTV6
 http://live.cooltv.top/tv/aishang.php?id=cctv6hd
 
-#EXTINF:-1 tvg-id="7" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/CCTV-13.png" group-title="CCTV",CCTV13
+#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/CCTV-13.png" group-title="CCTV",CCTV13
 http://live.cooltv.top/tv/aishang.php?id=cctv13hd
-#EXTINF:-1 tvg-id="7" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/CCTV-13.png" group-title="CCTV",CCTV13
+#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/CCTV-13.png" group-title="CCTV",CCTV13
 https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8
-
-#EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="CCTV",CCTV-16 奥林匹克4K 
-http://live.cooltv.top/tv/aishang.php?id=cctv164k
 
 #EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="CCTV",CCTV-4K 
 http://live.cooltv.top/tv/cctv4k_backup.php
