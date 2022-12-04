@@ -24,13 +24,13 @@ http://111.20.33.70/PLTV/88888893/224/3221226393/index.m3u8
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/CCTV-13.png" group-title="CCTV",CCTV13
 http://39.134.115.163:8080/PLTV/88888910/224/3221225638/index.m3u8
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/CCTV-13.png" group-title="CCTV",CCTV13
-http://111.20.33.70/PLTV/88888893/224/3221226233/index.m3u8
+https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8
 
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV-4K" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/CCTV4K.jpg" group-title="CCTV",CCTV-4K
 http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/CCTV-16.png" group-title="CCTV",CCTV16
-http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
+https://ldcctvwbcdbd.a.bdydns.com/ldcctvwbcd/cdrmldcctv16_1/index.m3u8?BR=td
 
 #EXTINF:-1 tvg-id="10" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/FHZX.png" group-title="卫视",凤凰资讯
 https://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
@@ -42,8 +42,6 @@ https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 http://111.59.189.40:8445/tsfile/live/0107_1.m3u8
 
 #EXTINF:-1 tvg-id="13" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/JSTV.png" group-title="卫视",江苏卫视
-http://39.134.115.163:8080/PLTV/88888910/224/3221225702/index.m3u8
-#EXTINF:-1 tvg-id="13" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/JSTV.png" group-title="卫视",江苏卫视
 http://39.135.138.59:18890/PLTV/88888910/224/3221225743/index.m3u8
 
 #EXTINF:-1 tvg-id="14" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/ZJTV.png" group-title="卫视",浙江卫视
@@ -53,7 +51,7 @@ http://hw-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225745/index.m3u8
 
 #EXTINF:-1 tvg-id="16" tvg-name="动感101" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/DG101.jpg" group-title="电台",动感101
-http://lhttp.qingting.fm/live/274/64k.mp3?app_id=web
+http://live.xmcdn.com/live/53/64.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="江苏交通广播" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/JSJTGB.jpeg" group-title="电台",江苏交通广播
 http://lzlive.vojs.cn/4TaHTeL/92/live.m3u8
 #EXTINF:-1 tvg-id="18" tvg-name="中国之声" tvg-logo="https://cnvod.cnr.cn/audio2017/ondemand/media/1100/20210425/1619317448858.jpg" group-title="电台",中国之声
