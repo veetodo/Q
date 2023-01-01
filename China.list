@@ -312,6 +312,7 @@ DOMAIN-SUFFIX,zhimg.com,DIRECT
 DOMAIN-KEYWORD,torrent,DIRECT
 // 自定义
 DOMAIN-SUFFIX,quickconnect.cn,DIRECT
+DOMAIN-SUFFIX,arp220.us,DIRECT
 
 // LAN,debugging rules should place above this line
 DOMAIN-SUFFIX,local,DIRECT
