@@ -103,7 +103,7 @@ http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001241/index.m3u8?
 https://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 
 #EXTINF:-1 tvg-id="235" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/FHZW.jpg" group-title="卫视",凤凰中文
-https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
+http://r.jdshipin.com/cCCzW
 
 #EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/DFTV.jpg" group-title="卫视",东方卫视
 http://111.59.189.40:8445/tsfile/live/0107_1.m3u8
