@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://i.mjh.nz/au/Perth/epg.xml.gz,https://i.mjh.nz/PlutoTV/us.xml.gz" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/CCTV-1.jpg" group-title="CCTV",CCTV1
-http://live.cooltv.top/tv/aishang.php?id=cctv1hd
+http://119.39.128.18:88/hls/1/index.m3u8
 
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/CCTV-1.jpg" group-title="CCTV",CCTV2
 http://live.cooltv.top/tv/aishang.php?id=cctv2hd
@@ -100,7 +100,7 @@ http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001258/index.m3u8?
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001241/index.m3u8?
 
 #EXTINF:-1 tvg-id="236" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/FHZX.png" group-title="卫视",凤凰资讯
-https://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+http://r.jdshipin.com/0Rp07
 
 #EXTINF:-1 tvg-id="235" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/FHZW.jpg" group-title="卫视",凤凰中文
 http://r.jdshipin.com/cCCzW
