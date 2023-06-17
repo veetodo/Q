@@ -40,7 +40,7 @@ http://39.135.138.59:18890/PLTV/88888910/224/3221225743/index.m3u8
 http://hw-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 
 #EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/HNTV.png" group-title="卫视",湖南卫视
-http://39.134.115.163:8080/PLTV/88888910/224/3221225745/index.m3u8
+http://hbpx.chinashadt.com:2036/live/px5.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="动感101" tvg-name="动感101" tvg-logo="https://raw.githubusercontent.com/veetodo/Q/master/logo/DG101.jpg" group-title="电台",动感101
 http://live.xmcdn.com/live/53/64.m3u8
