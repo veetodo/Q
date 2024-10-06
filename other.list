@@ -1,5 +1,7 @@
 # NAME: other
 # AUTHOR: vee
 # UPDATED: 2024-10-06 22:10:16
-HOST,hifini.com,other
-HOST,feitu.im,other
+# HOST 域名匹配
+# HOST-SUFFIX 域名后缀匹配
+HOST-SUFFIX,hifini.com,other
+HOST-SUFFIX,feitu.im,other
