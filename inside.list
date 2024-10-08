@@ -1,0 +1,6 @@
+# NAME: inside
+# AUTHOR: vee
+# UPDATED: 2024-10-08
+# HOST 域名匹配
+# HOST-SUFFIX 域名后缀匹配
+HOST-SUFFIX,chinesean.com,inside
