@@ -45,9 +45,11 @@ cron {cron-iqiyi} script-path = https://raw.githubusercontent.com/sooyaaabo/Loon
 
 # 龙湖天街
 http-request ^https?:\/\/gw2c\-hw\-open\.longfor\.com\/lmarketing\-task\-api\-mvc\-prod\/openapi\/task\/v1\/signature\/clock script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, timeout = 60, enable = {CookieScript-lhtj}, tag=龙湖天街获取Cookie
+cron {cron-lhtj} script-path = https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, timeout = 60, tag = 龙湖天街Task
 
 # 万达智慧商业
-http-response ^https?:\/\/www\.wandawic\.com\/api\/wic\-member\-application\/api\/user\/queryUser tag=万达智慧商业²,script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js,requires-body=1, timeout = 60, enable = {CookieScript-wdzhsy}, tag=我的智慧顺意获取Cookie
+http-response ^https?:\/\/www\.wandawic\.com\/api\/wic\-member\-application\/api\/user\/queryUser tag=万达智慧商业²,script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js,requires-body=1, timeout = 60, enable = {CookieScript-wdzhsy}, tag=万达智慧商业获取Cookie
+cron {cron-wdzhsy} script-path = https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js, timeout = 60, tag = 万达智慧商业Task
 
 [MitM]
 hostname = auth.alipan.com, auth.aliyundrive.com, api.weibo.cn, passport.iqiyi.com, gw2c-hw-open.longfor.com, www.wandawic.com
