@@ -40,8 +40,8 @@ cron "0 30 7 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/6b
 http-request ^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js,requires-body=true, timeout=10, tag=达美乐披萨获取token
 
 # 携程旅行
-cron "0 45 7 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Ctrip-DailyBonus/Ctrip.js, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/ctrip.png, timeout=300, enabled=false, tag=携程旅行签到
-http-response ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?) script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Ctrip-DailyBonus/Ctrip.js, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/ctrip.png, requires-body=true, enabled=false, tag=携程旅行Cookie
+cron "0 45 7 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Ctrip-DailyBonus/Ctrip.js, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/ctrip.png, timeout=300, tag=携程旅行签到
+http-response ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?) script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Ctrip-DailyBonus/Ctrip.js, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/ctrip.png, requires-body=true, tag=携程旅行Cookie
 
 [MitM]
 hostname = auth.alipan.com, auth.aliyundrive.com, api.weibo.cn, passport.iqiyi.com, gw2c-hw-open.longfor.com, www.wandawic.com, gateway.starcharge.com, api.tuhu.cn, game.dominos.com.cn, m.ctrip.com
