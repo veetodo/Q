@@ -10,46 +10,26 @@
 #!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/Notifyman.png
 #!date = 2025-02-04 17:00
 
-# 2024-01-24 13:13:56
-# https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js
-# 2021-02-21 22:30
-# https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/weibo.js
-# 2024-05-15
-# https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-
-[Argument]
-# 阿里云盘
-CookieScript-alipan = switch, true, false, tag = 阿里云盘Token, desc = 是否启用阿里云盘Cookie脚本来获取Token
-cron-alipan = input, "0 1 0 * * *", tag = 阿里云盘Task, desc = 输入cron表达式来定时运行阿里云盘Task
-
-# 爱奇艺
-CookieScript-iqiyi = switch, true, false, tag = 爱奇艺Cookie, desc = 是否启用爱奇艺Cookie脚本来获取Cookie
-cron-iqiyi = input, "0 5 0 * * *", tag = 爱奇艺Task, desc = 输入cron表达式来定时运行爱奇艺Task
-
-# 龙湖天街
-CookieScript-lhtj = switch, true, false, tag = 龙湖天街获取Cookie, desc = 是否启用龙湖天街获取Cookie脚本来获取Cookie
-cron-lhtj = input, "0 10 7 * * *", tag = 龙湖天街Task, desc = 输入cron表达式来定时运行龙湖天街Task
-
-# 万达智慧商业
-CookieScript-wdzhsy = switch, true, false, tag = 万达智慧商业获取Cookie, desc = 是否启用万达智慧商业获取Cookie脚本来获取Cookie
-cron-wdzhsy = input, "0 30 7 * * *", tag = 万达智慧商业Task, desc = 输入cron表达式来定时运行万达智慧商业Task
-
 [Script]
 # 阿里云盘 - auth.alipan.com, auth.aliyundrive.com
-http-request ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token script-path = https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, requires-body = true, timeout = 60, enable = {CookieScript-alipan}, tag = 阿里云盘Token
-cron {cron-alipan} script-path = https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout = 60, tag = 阿里云盘Task
+http-request ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token script-path = https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, requires-body = true, tag = 阿里云盘Token
+cron "0 35 7 * * *" script-path = https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout = 60, tag = 阿里云盘Task
 
 # 爱奇艺 - passport.iqiyi.com
-http-request ^https:\/\/passport\.iqiyi\.com\/apis\/user\/ script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/IQIYICookieTask.js, timeout = 60, enable = {CookieScript-iqiyi}, tag = 爱奇艺Cookie
-cron {cron-iqiyi} script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/IQIYICookieTask.js, timeout = 60, tag = 爱奇艺Task
+http-request ^https:\/\/passport\.iqiyi\.com\/apis\/user\/ script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/IQIYICookieTask.js, tag = 爱奇艺Cookie
+cron "0 15 7 * * *" script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/IQIYICookieTask.js, timeout = 60, tag = 爱奇艺Task
 
 # 龙湖天街
-http-request ^https?:\/\/gw2c\-hw\-open\.longfor\.com\/lmarketing\-task\-api\-mvc\-prod\/openapi\/task\/v1\/signature\/clock script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, timeout = 60, enable = {CookieScript-lhtj}, tag=龙湖天街获取Cookie
-cron {cron-lhtj} script-path = https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, timeout = 60, tag = 龙湖天街Task
+http-request ^https?:\/\/gw2c\-hw\-open\.longfor\.com\/lmarketing\-task\-api\-mvc\-prod\/openapi\/task\/v1\/signature\/clock script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, tag=龙湖天街Cookie
+cron "0 10 7 * * *" script-path = https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, timeout = 60, tag = 龙湖天街
 
 # 万达智慧商业
-http-response ^https?:\/\/www\.wandawic\.com\/api\/wic\-member\-application\/api\/user\/queryUser tag=万达智慧商业²,script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js,requires-body=1, timeout = 60, enable = {CookieScript-wdzhsy}, tag=万达智慧商业获取Cookie
-cron {cron-wdzhsy} script-path = https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js, timeout = 60, tag = 万达智慧商业Task
+http-response ^https?:\/\/www\.wandawic\.com\/api\/wic\-member\-application\/api\/user\/queryUser tag=万达智慧商业²,script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js,requires-body=1
+cron "0 30 7 * * *" script-path = https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js, timeout = 60, tag = 万达智慧商业
+
+# 星星充电
+http-request ^https:\/\/gateway\.starcharge\.com\/apph5\/xcxApiV2\/wechat\/starPoint\/sign tag=星星充电Cookie, script-path=https://raw.githubusercontent.com/shengetui/qx/main/xxcd.js,requires-body=1
+cron "0 17 7 * * *" script-path = https://raw.githubusercontent.com/shengetui/qx/main/xxcd.js,tag = 星星充电, timeout = 60, enable=true
 
 [MitM]
-hostname = auth.alipan.com, auth.aliyundrive.com, api.weibo.cn, passport.iqiyi.com, gw2c-hw-open.longfor.com, www.wandawic.com
+hostname = auth.alipan.com, auth.aliyundrive.com, api.weibo.cn, passport.iqiyi.com, gw2c-hw-open.longfor.com, www.wandawic.com, gateway.starcharge.com
