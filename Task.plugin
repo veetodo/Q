@@ -11,10 +11,6 @@
 #!date = 2025-02-04 17:00
 
 [Script]
-# 阿里云盘 - auth.alipan.com, auth.aliyundrive.com
-http-request ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token script-path = https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, requires-body = true, tag = 阿里云盘Token
-cron "0 35 7 * * *" script-path = https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout = 60, tag = 阿里云盘Task
-
 # 爱奇艺 - passport.iqiyi.com
 http-request ^https:\/\/passport\.iqiyi\.com\/apis\/user\/ script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/IQIYICookieTask.js, tag = 爱奇艺Cookie
 cron "0 15 7 * * *" script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/IQIYICookieTask.js, timeout = 60, tag = 爱奇艺Task
@@ -25,19 +21,15 @@ cron "0 10 7 * * *" script-path = https://raw.githubusercontent.com/leiyiyan/res
 
 # 万达智慧商业
 http-response ^https?:\/\/www\.wandawic\.com\/api\/wic\-member\-application\/api\/user\/queryUser tag=万达智慧商业²,script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js,requires-body=1
-cron "0 30 9 * * *" script-path = https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js, tag=万达智慧商业,enable=true
+cron "30 9 * * *" script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js,tag=万达智慧商业,enable=true
 
 # 星星充电
 http-request ^https:\/\/gateway\.starcharge\.com\/apph5\/xcxApiV2\/wechat\/starPoint\/sign tag=星星充电Cookie, script-path=https://raw.githubusercontent.com/shengetui/qx/main/xxcd.js,requires-body=1
 cron "0 17 7 * * *" script-path = https://raw.githubusercontent.com/shengetui/qx/main/xxcd.js,tag = 星星充电, timeout = 60, enable=true
-
-# 途虎养车
-http-request https:\/\/api\.tuhu\.cn\/User\/GetInternalCenterInfo tag=途虎养车#, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tuhu.js,requires-body=0
-cron "0 21 7 * * *" script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tuhu.js,tag = 途虎养车,enable=true
 
 # 达乐美
 cron "0 30 7 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js,timeout=300, tag=达美乐披萨
 http-request ^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js,requires-body=true, timeout=10, tag=达美乐披萨获取token
 
 [MitM]
-hostname = auth.alipan.com, auth.aliyundrive.com, api.weibo.cn, passport.iqiyi.com, gw2c-hw-open.longfor.com, www.wandawic.com, gateway.starcharge.com, api.tuhu.cn, game.dominos.com.cn
+hostname = passport.iqiyi.com, gw2c-hw-open.longfor.com, www.wandawic.com, gateway.starcharge.com, game.dominos.com.cn
