@@ -4,3 +4,4 @@
 # HOST 域名匹配
 # HOST-SUFFIX 域名后缀匹配
 HOST-SUFFIX,chinesean.com,inside
+HOST-SUFFIX,deepseek.com,inside
