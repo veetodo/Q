@@ -27,9 +27,5 @@ cron "30 9 * * *" script-path=https://raw.githubusercontent.com/leiyiyan/resourc
 http-request ^https:\/\/gateway\.starcharge\.com\/apph5\/xcxApiV2\/wechat\/starPoint\/sign tag=星星充电Cookie, script-path=https://raw.githubusercontent.com/shengetui/qx/main/xxcd.js,requires-body=1
 cron "0 17 7 * * *" script-path = https://raw.githubusercontent.com/shengetui/qx/main/xxcd.js,tag = 星星充电, timeout = 60, enable=true
 
-# 达乐美
-cron "0 30 7 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js,timeout=300, tag=达美乐披萨
-http-request ^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js,requires-body=true, timeout=10, tag=达美乐披萨获取token
-
 [MitM]
-hostname = passport.iqiyi.com, gw2c-hw-open.longfor.com, www.wandawic.com, gateway.starcharge.com, game.dominos.com.cn
+hostname = passport.iqiyi.com, gw2c-hw-open.longfor.com, www.wandawic.com, gateway.starcharge.com
