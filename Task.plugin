@@ -21,11 +21,11 @@ cron "0 10 7 * * *" script-path = https://raw.githubusercontent.com/leiyiyan/res
 
 # 万达智慧商业
 http-response ^https?:\/\/www\.wandawic\.com\/api\/wic\-member\-application\/api\/user\/queryUser tag=万达智慧商业²,script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js,requires-body=1
-cron "30 9 * * *" script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js,tag=万达智慧商业,enable=true
+cron "0 30 9 * * *" script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js,tag=万达智慧商业,enable=true
 
-# 星星充电
-http-request ^https:\/\/gateway\.starcharge\.com\/apph5\/xcxApiV2\/wechat\/starPoint\/sign tag=星星充电Cookie, script-path=https://raw.githubusercontent.com/shengetui/qx/main/xxcd.js,requires-body=1
-cron "0 17 7 * * *" script-path = https://raw.githubusercontent.com/shengetui/qx/main/xxcd.js,tag = 星星充电, timeout = 60, enable=true
+# 途虎养车
+http-request https:\/\/api\.tuhu\.cn\/User\/GetInternalCenterInfo tag=途虎养车#, script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/tuhu.js,requires-body=0
+cron "0 17 7 * * *" script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/tuhu.js,tag = 途虎养车,enable=true
 
 [MitM]
-hostname = passport.iqiyi.com, gw2c-hw-open.longfor.com, www.wandawic.com, gateway.starcharge.com
+hostname = passport.iqiyi.com, gw2c-hw-open.longfor.com, www.wandawic.com, api.tuhu.cn
