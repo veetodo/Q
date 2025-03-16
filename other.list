@@ -1,10 +1,7 @@
 # NAME: other
 # AUTHOR: vee
 # UPDATED: 2024-10-06 22:10:16
-# HOST 域名匹配
-# HOST-SUFFIX 域名后缀匹配
-
-HOST-SUFFIX,feitu.im,other
-HOST-SUFFIX,飞兔.com,other
-HOST-SUFFIX,follow.is,other
-HOST-SUFFIX,avjoy.me,other
+DOMAIN-SUFFIX,feitu.im
+DOMAIN-SUFFIX,飞兔.com
+DOMAIN-SUFFIX,follow.is
+DOMAIN-SUFFIX,avjoy.me
