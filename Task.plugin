@@ -11,21 +11,9 @@
 #!date = 2025-02-04 17:00
 
 [Script]
-# 爱奇艺 - passport.iqiyi.com
-http-request ^https:\/\/passport\.iqiyi\.com\/apis\/user\/ script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/IQIYICookieTask.js, tag = 爱奇艺Cookie
-cron "0 15 7 * * *" script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/CookieTask/IQIYICookieTask.js, timeout = 60, tag = 爱奇艺Task
-
 # 龙湖天街
 http-request ^https?:\/\/gw2c\-hw\-open\.longfor\.com\/lmarketing\-task\-api\-mvc\-prod\/openapi\/task\/v1\/signature\/clock script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, tag=龙湖天街Cookie
 cron "0 10 7 * * *" script-path = https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, timeout = 60, tag = 龙湖天街
 
-# mxbc
-http-response ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, requires-body=true, timeout=60, tag=蜜雪冰城获取token
-cron "0 19 7 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js,tag=蜜雪冰城,enable=true
-
-# 途虎养车
-http-request https:\/\/api\.tuhu\.cn\/User\/GetInternalCenterInfo tag=途虎养车#, script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/tuhu.js,requires-body=0
-cron "0 17 7 * * *" script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/tuhu.js,tag = 途虎养车,enable=true
-
 [MitM]
-hostname = passport.iqiyi.com, gw2c-hw-open.longfor.com, mxsa.mxbc.net, api.tuhu.cn
+hostname = gw2c-hw-open.longfor.com
